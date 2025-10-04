@@ -1,0 +1,9 @@
+name: forcontainer
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13.7
+  - pip
+  - pip:
+    - flask==3.0.3
